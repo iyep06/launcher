@@ -1,0 +1,34 @@
+# Your settings and signing key stay on your machine
+config.properties
+*.keystore
+*.idsig
+
+# Build output
+out/
+*.apk
+*.ipk
+*.wgt
+__pycache__/
+
+# macOS
+.DS_Store
+
+# CCTV still from tools/camera_still.py
+camera-still.jpg
+
+# Update zips, settings backups, local tests
+*.zip
+*.bak
+prototype/
+onvif_watch.py
+
+# AI agent skills & rules
+.agents/
+.agent/
+
+# Video recordings
+*.mp4
+
+# Firebase
+google-services.json
+preview/
